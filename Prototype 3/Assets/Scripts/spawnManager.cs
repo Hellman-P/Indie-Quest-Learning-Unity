@@ -9,7 +9,7 @@ public class spawnManager : MonoBehaviour
     private PlayerController playerControllerScript;
 
     private float startDelay = 2;
-    private float repeatDelay = 2;
+    private float repeatDelay = 1.8f;
 
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class spawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void SpawnObstacle()
